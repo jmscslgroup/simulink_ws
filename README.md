@@ -1,11 +1,11 @@
 # simulink_ws
-ROS Workspace for Simulink generated ROS node. 
+ROS Workspace for Simulink generated ROS packages. 
 
 ## Why this?
 When working with Simulink model, we are interested in generating ROS packages in model-based design manner.
 However, creating a separate repo for each ROS package means so many repos on GitHub to track which can flood the 
 Github repo list. Instead of creating separate repo for each generated ROS package, it is better to have one repo on
-Github with src/ diretory. Each new generated ROS package **should** go to src/ directory.
+Github with `src/` diretory. Each new generated ROS package **should** go to `src/` directory.
 
 ## How to use this repo?
 Check out the repo first
